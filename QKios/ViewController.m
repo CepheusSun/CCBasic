@@ -18,10 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSArray *arr = @[@"1",@"2",@"3"];
-    [arr each:^(id object) {
-        
-    }];
+    
+
     
 //    id de = [arr detect:^BOOL(id object) {
 //        return [object isEqualToString:@"1"];
@@ -29,11 +27,10 @@
 //    
 //    NSLog(@"%@",de);
 //
-    
+    NSArray *arr = @[@"1",@"2",@"3"];
     id reduc = [arr reduce:^id(id accumlator, id object) {
         NSLog(@"%@---%@",accumlator,object);
-        
-        return @"1";
+        return [NSString stringWithFormat:@"%@%@",accumlator,object];
     }];
     
     NSLog(@"%@",reduc);

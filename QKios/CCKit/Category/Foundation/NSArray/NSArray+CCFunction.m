@@ -10,13 +10,13 @@
 
 @implementation NSArray (CCFunction)
 
-- (void)each:(void (^)(id))block {
+- (void)forEach:(void (^)(id))block {
     [self enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         block(obj);
     }];
 }
 
-- (void)eachWithIndex:(void (^)(id object, NSUInteger index))block {
+- (void)forEachWithIndex:(void (^)(id object, NSUInteger index))block {
     [self enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         block(obj, idx);
     }];
@@ -55,5 +55,16 @@
         accumlator = accumlator ? block(accumlator, obj) :obj;
     }];
     return accumlator;
+}
+
+
+- (NSMutableArray *)reversedSelf {
+    NSMutableArray *arrayTemp = [NSMutableArray arrayWithCapacity:[self count]];
+    NSEnumerator *enumerator = [self reverseObjectEnumerator];
+    
+    for(id element in enumerator){
+        [arrayTemp addObject:element];
+    }
+    return arrayTemp;
 }
 @end
