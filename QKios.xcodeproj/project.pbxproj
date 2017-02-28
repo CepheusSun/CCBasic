@@ -18,6 +18,7 @@
 		338BAD571E65B1410026993A /* UIControl+CCBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 338BAD561E65B1410026993A /* UIControl+CCBlock.m */; };
 		338BAD5A1E65B5CD0026993A /* UIImage+CCBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 338BAD591E65B5CD0026993A /* UIImage+CCBlock.m */; };
 		338BAD5E1E65B9990026993A /* NSArray+CCFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 338BAD5D1E65B9990026993A /* NSArray+CCFunction.m */; };
+		338BAD611E65CB000026993A /* NSArray+CCSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 338BAD601E65CB000026993A /* NSArray+CCSafe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		338BAD591E65B5CD0026993A /* UIImage+CCBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CCBlock.m"; sourceTree = "<group>"; };
 		338BAD5C1E65B9990026993A /* NSArray+CCFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+CCFunction.h"; sourceTree = "<group>"; };
 		338BAD5D1E65B9990026993A /* NSArray+CCFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CCFunction.m"; sourceTree = "<group>"; };
+		338BAD5F1E65CB000026993A /* NSArray+CCSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+CCSafe.h"; sourceTree = "<group>"; };
+		338BAD601E65CB000026993A /* NSArray+CCSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CCSafe.m"; sourceTree = "<group>"; };
 		42DCF75CF95294A8EF427F2F /* libPods-QKios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QKios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F5ECD220E60FB36904B6467 /* Pods-QKios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QKios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QKios/Pods-QKios.debug.xcconfig"; sourceTree = "<group>"; };
 		A43FDF1A4711BE2F61931977 /* Pods-QKios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QKios.release.xcconfig"; path = "Pods/Target Support Files/Pods-QKios/Pods-QKios.release.xcconfig"; sourceTree = "<group>"; };
@@ -158,6 +161,8 @@
 			children = (
 				338BAD5C1E65B9990026993A /* NSArray+CCFunction.h */,
 				338BAD5D1E65B9990026993A /* NSArray+CCFunction.m */,
+				338BAD5F1E65CB000026993A /* NSArray+CCSafe.h */,
+				338BAD601E65CB000026993A /* NSArray+CCSafe.m */,
 			);
 			path = NSArray;
 			sourceTree = "<group>";
@@ -305,6 +310,7 @@
 				338BAD391E65A55A0026993A /* ViewController.m in Sources */,
 				338BAD5A1E65B5CD0026993A /* UIImage+CCBlock.m in Sources */,
 				338BAD361E65A55A0026993A /* AppDelegate.m in Sources */,
+				338BAD611E65CB000026993A /* NSArray+CCSafe.m in Sources */,
 				338BAD541E65AE2C0026993A /* UIBarButtonItem+CCBlock.m in Sources */,
 				338BAD571E65B1410026993A /* UIControl+CCBlock.m in Sources */,
 				338BAD5E1E65B9990026993A /* NSArray+CCFunction.m in Sources */,
