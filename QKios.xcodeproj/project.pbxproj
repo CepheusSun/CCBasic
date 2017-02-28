@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		104DEFDA018218A23EB0DF04 /* libPods-QKios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42DCF75CF95294A8EF427F2F /* libPods-QKios.a */; };
+		338BAD331E65A55A0026993A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 338BAD321E65A55A0026993A /* main.m */; };
+		338BAD361E65A55A0026993A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 338BAD351E65A55A0026993A /* AppDelegate.m */; };
+		338BAD391E65A55A0026993A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 338BAD381E65A55A0026993A /* ViewController.m */; };
+		338BAD3C1E65A55A0026993A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338BAD3A1E65A55A0026993A /* Main.storyboard */; };
+		338BAD3E1E65A55A0026993A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 338BAD3D1E65A55A0026993A /* Assets.xcassets */; };
+		338BAD411E65A55A0026993A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338BAD3F1E65A55A0026993A /* LaunchScreen.storyboard */; };
+		338BAD541E65AE2C0026993A /* UIBarButtonItem+CCBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 338BAD531E65AE2C0026993A /* UIBarButtonItem+CCBlock.m */; };
+		338BAD571E65B1410026993A /* UIControl+CCBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 338BAD561E65B1410026993A /* UIControl+CCBlock.m */; };
+		338BAD5A1E65B5CD0026993A /* UIImage+CCBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 338BAD591E65B5CD0026993A /* UIImage+CCBlock.m */; };
+		338BAD5E1E65B9990026993A /* NSArray+CCFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 338BAD5D1E65B9990026993A /* NSArray+CCFunction.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		338BAD2E1E65A55A0026993A /* QKios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QKios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		338BAD321E65A55A0026993A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		338BAD341E65A55A0026993A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		338BAD351E65A55A0026993A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		338BAD371E65A55A0026993A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		338BAD381E65A55A0026993A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		338BAD3B1E65A55A0026993A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		338BAD3D1E65A55A0026993A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		338BAD401E65A55A0026993A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		338BAD421E65A55A0026993A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		338BAD521E65AE2C0026993A /* UIBarButtonItem+CCBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+CCBlock.h"; sourceTree = "<group>"; };
+		338BAD531E65AE2C0026993A /* UIBarButtonItem+CCBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+CCBlock.m"; sourceTree = "<group>"; };
+		338BAD551E65B1410026993A /* UIControl+CCBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+CCBlock.h"; sourceTree = "<group>"; };
+		338BAD561E65B1410026993A /* UIControl+CCBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+CCBlock.m"; sourceTree = "<group>"; };
+		338BAD581E65B5CD0026993A /* UIImage+CCBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CCBlock.h"; sourceTree = "<group>"; };
+		338BAD591E65B5CD0026993A /* UIImage+CCBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CCBlock.m"; sourceTree = "<group>"; };
+		338BAD5C1E65B9990026993A /* NSArray+CCFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+CCFunction.h"; sourceTree = "<group>"; };
+		338BAD5D1E65B9990026993A /* NSArray+CCFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CCFunction.m"; sourceTree = "<group>"; };
+		42DCF75CF95294A8EF427F2F /* libPods-QKios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QKios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F5ECD220E60FB36904B6467 /* Pods-QKios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QKios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QKios/Pods-QKios.debug.xcconfig"; sourceTree = "<group>"; };
+		A43FDF1A4711BE2F61931977 /* Pods-QKios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QKios.release.xcconfig"; path = "Pods/Target Support Files/Pods-QKios/Pods-QKios.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		338BAD2B1E65A55A0026993A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				104DEFDA018218A23EB0DF04 /* libPods-QKios.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		338BAD251E65A55A0026993A = {
+			isa = PBXGroup;
+			children = (
+				338BAD301E65A55A0026993A /* QKios */,
+				338BAD2F1E65A55A0026993A /* Products */,
+				8EB971C519D32E737A808DF2 /* Pods */,
+				83B91BA8D67A225F85D7B861 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		338BAD2F1E65A55A0026993A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				338BAD2E1E65A55A0026993A /* QKios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		338BAD301E65A55A0026993A /* QKios */ = {
+			isa = PBXGroup;
+			children = (
+				338BAD4D1E65ADD90026993A /* CCKit */,
+				338BAD4C1E65AC9E0026993A /* Appdelegate */,
+				338BAD371E65A55A0026993A /* ViewController.h */,
+				338BAD381E65A55A0026993A /* ViewController.m */,
+				338BAD3A1E65A55A0026993A /* Main.storyboard */,
+				338BAD3D1E65A55A0026993A /* Assets.xcassets */,
+				338BAD3F1E65A55A0026993A /* LaunchScreen.storyboard */,
+				338BAD421E65A55A0026993A /* Info.plist */,
+				338BAD311E65A55A0026993A /* Supporting Files */,
+			);
+			path = QKios;
+			sourceTree = "<group>";
+		};
+		338BAD311E65A55A0026993A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				338BAD321E65A55A0026993A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		338BAD4C1E65AC9E0026993A /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				338BAD341E65A55A0026993A /* AppDelegate.h */,
+				338BAD351E65A55A0026993A /* AppDelegate.m */,
+			);
+			path = Appdelegate;
+			sourceTree = "<group>";
+		};
+		338BAD4D1E65ADD90026993A /* CCKit */ = {
+			isa = PBXGroup;
+			children = (
+				338BAD4E1E65AE050026993A /* Category */,
+			);
+			path = CCKit;
+			sourceTree = "<group>";
+		};
+		338BAD4E1E65AE050026993A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				338BAD4F1E65AE050026993A /* Block */,
+				338BAD501E65AE050026993A /* Foundation */,
+				338BAD511E65AE050026993A /* UIkit */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		338BAD4F1E65AE050026993A /* Block */ = {
+			isa = PBXGroup;
+			children = (
+				338BAD521E65AE2C0026993A /* UIBarButtonItem+CCBlock.h */,
+				338BAD531E65AE2C0026993A /* UIBarButtonItem+CCBlock.m */,
+				338BAD551E65B1410026993A /* UIControl+CCBlock.h */,
+				338BAD561E65B1410026993A /* UIControl+CCBlock.m */,
+				338BAD581E65B5CD0026993A /* UIImage+CCBlock.h */,
+				338BAD591E65B5CD0026993A /* UIImage+CCBlock.m */,
+			);
+			path = Block;
+			sourceTree = "<group>";
+		};
+		338BAD501E65AE050026993A /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				338BAD5B1E65B96A0026993A /* NSArray */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		338BAD511E65AE050026993A /* UIkit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIkit;
+			sourceTree = "<group>";
+		};
+		338BAD5B1E65B96A0026993A /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				338BAD5C1E65B9990026993A /* NSArray+CCFunction.h */,
+				338BAD5D1E65B9990026993A /* NSArray+CCFunction.m */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		83B91BA8D67A225F85D7B861 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42DCF75CF95294A8EF427F2F /* libPods-QKios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8EB971C519D32E737A808DF2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F5ECD220E60FB36904B6467 /* Pods-QKios.debug.xcconfig */,
+				A43FDF1A4711BE2F61931977 /* Pods-QKios.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		338BAD2D1E65A55A0026993A /* QKios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 338BAD451E65A55A0026993A /* Build configuration list for PBXNativeTarget "QKios" */;
+			buildPhases = (
+				1BC50FD979EF546C01186950 /* [CP] Check Pods Manifest.lock */,
+				338BAD2A1E65A55A0026993A /* Sources */,
+				338BAD2B1E65A55A0026993A /* Frameworks */,
+				338BAD2C1E65A55A0026993A /* Resources */,
+				B1B4611499501AE5FCC0B960 /* [CP] Embed Pods Frameworks */,
+				DD68042697F6AAF4E4ECF26F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QKios;
+			productName = QKios;
+			productReference = 338BAD2E1E65A55A0026993A /* QKios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		338BAD261E65A55A0026993A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = CepheusSun;
+				TargetAttributes = {
+					338BAD2D1E65A55A0026993A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 552B69TXM9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 338BAD291E65A55A0026993A /* Build configuration list for PBXProject "QKios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 338BAD251E65A55A0026993A;
+			productRefGroup = 338BAD2F1E65A55A0026993A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				338BAD2D1E65A55A0026993A /* QKios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		338BAD2C1E65A55A0026993A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				338BAD411E65A55A0026993A /* LaunchScreen.storyboard in Resources */,
+				338BAD3E1E65A55A0026993A /* Assets.xcassets in Resources */,
+				338BAD3C1E65A55A0026993A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BC50FD979EF546C01186950 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B1B4611499501AE5FCC0B960 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QKios/Pods-QKios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD68042697F6AAF4E4ECF26F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QKios/Pods-QKios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		338BAD2A1E65A55A0026993A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				338BAD391E65A55A0026993A /* ViewController.m in Sources */,
+				338BAD5A1E65B5CD0026993A /* UIImage+CCBlock.m in Sources */,
+				338BAD361E65A55A0026993A /* AppDelegate.m in Sources */,
+				338BAD541E65AE2C0026993A /* UIBarButtonItem+CCBlock.m in Sources */,
+				338BAD571E65B1410026993A /* UIControl+CCBlock.m in Sources */,
+				338BAD5E1E65B9990026993A /* NSArray+CCFunction.m in Sources */,
+				338BAD331E65A55A0026993A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		338BAD3A1E65A55A0026993A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				338BAD3B1E65A55A0026993A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		338BAD3F1E65A55A0026993A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				338BAD401E65A55A0026993A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		338BAD431E65A55A0026993A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		338BAD441E65A55A0026993A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		338BAD461E65A55A0026993A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F5ECD220E60FB36904B6467 /* Pods-QKios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 552B69TXM9;
+				INFOPLIST_FILE = QKios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = app.QKios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		338BAD471E65A55A0026993A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A43FDF1A4711BE2F61931977 /* Pods-QKios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 552B69TXM9;
+				INFOPLIST_FILE = QKios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = app.QKios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		338BAD291E65A55A0026993A /* Build configuration list for PBXProject "QKios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				338BAD431E65A55A0026993A /* Debug */,
+				338BAD441E65A55A0026993A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		338BAD451E65A55A0026993A /* Build configuration list for PBXNativeTarget "QKios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				338BAD461E65A55A0026993A /* Debug */,
+				338BAD471E65A55A0026993A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 338BAD261E65A55A0026993A /* Project object */;
+}
