@@ -14,7 +14,7 @@
 
 #import "CCCategoryMacro.h"
 
-
+#import <FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.h>
 
 
 

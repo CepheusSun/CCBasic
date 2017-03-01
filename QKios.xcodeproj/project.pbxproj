@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		104DEFDA018218A23EB0DF04 /* libPods-QKios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42DCF75CF95294A8EF427F2F /* libPods-QKios.a */; };
+		104DEFDA018218A23EB0DF04 /* libPods-QKios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42DCF75CF95294A8EF427F2F /* libPods-QKios.a */; settings = {ATTRIBUTES = (Required, ); }; };
 		3319D1DE1E66BA700039C71F /* QKMineController+NavigationHidden.m in Sources */ = {isa = PBXBuildFile; fileRef = 3319D1DD1E66BA700039C71F /* QKMineController+NavigationHidden.m */; };
 		3319D1E51E66BB550039C71F /* NSObject+MethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 3319D1E41E66BB550039C71F /* NSObject+MethodSwizzling.m */; };
+		3319D1E81E66F23D0039C71F /* UIScrollView+HeaderImageScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 3319D1E71E66F23D0039C71F /* UIScrollView+HeaderImageScale.m */; };
+		3319D1EB1E67098F0039C71F /* QKMineController+QKSkip.m in Sources */ = {isa = PBXBuildFile; fileRef = 3319D1EA1E67098F0039C71F /* QKMineController+QKSkip.m */; };
+		3319D1EF1E670C000039C71F /* QKSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3319D1EE1E670C000039C71F /* QKSettingController.m */; };
+		3319D1F11E670C070039C71F /* QKSettingController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3319D1F01E670C070039C71F /* QKSettingController.storyboard */; };
 		33230A311E669789005BCD72 /* QKTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33230A301E669789005BCD72 /* QKTabbarController.m */; };
 		33230A341E66985D005BCD72 /* MNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33230A331E66985D005BCD72 /* MNavigationController.m */; };
 		33230A371E66998B005BCD72 /* QKBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33230A361E66998B005BCD72 /* QKBaseController.m */; };
@@ -38,6 +42,13 @@
 		3319D1DD1E66BA700039C71F /* QKMineController+NavigationHidden.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QKMineController+NavigationHidden.m"; sourceTree = "<group>"; };
 		3319D1E31E66BB550039C71F /* NSObject+MethodSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MethodSwizzling.h"; sourceTree = "<group>"; };
 		3319D1E41E66BB550039C71F /* NSObject+MethodSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MethodSwizzling.m"; sourceTree = "<group>"; };
+		3319D1E61E66F23D0039C71F /* UIScrollView+HeaderImageScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+HeaderImageScale.h"; sourceTree = "<group>"; };
+		3319D1E71E66F23D0039C71F /* UIScrollView+HeaderImageScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+HeaderImageScale.m"; sourceTree = "<group>"; };
+		3319D1E91E67098F0039C71F /* QKMineController+QKSkip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QKMineController+QKSkip.h"; sourceTree = "<group>"; };
+		3319D1EA1E67098F0039C71F /* QKMineController+QKSkip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QKMineController+QKSkip.m"; sourceTree = "<group>"; };
+		3319D1ED1E670C000039C71F /* QKSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QKSettingController.h; sourceTree = "<group>"; };
+		3319D1EE1E670C000039C71F /* QKSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QKSettingController.m; sourceTree = "<group>"; };
+		3319D1F01E670C070039C71F /* QKSettingController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = QKSettingController.storyboard; sourceTree = "<group>"; };
 		33230A2F1E669789005BCD72 /* QKTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QKTabbarController.h; sourceTree = "<group>"; };
 		33230A301E669789005BCD72 /* QKTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QKTabbarController.m; sourceTree = "<group>"; };
 		33230A321E66985D005BCD72 /* MNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNavigationController.h; sourceTree = "<group>"; };
@@ -97,10 +108,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3319D1D51E66B3540039C71F /* 导航栏渐隐 */ = {
+		3319D1D51E66B3540039C71F /* header拉伸 */ = {
 			isa = PBXGroup;
 			children = (
+				3319D1E61E66F23D0039C71F /* UIScrollView+HeaderImageScale.h */,
+				3319D1E71E66F23D0039C71F /* UIScrollView+HeaderImageScale.m */,
 			);
+			name = "header拉伸";
 			path = "导航栏渐隐";
 			sourceTree = "<group>";
 		};
@@ -111,6 +125,16 @@
 				3319D1E41E66BB550039C71F /* NSObject+MethodSwizzling.m */,
 			);
 			path = NSObject;
+			sourceTree = "<group>";
+		};
+		3319D1EC1E670BDB0039C71F /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				3319D1ED1E670C000039C71F /* QKSettingController.h */,
+				3319D1EE1E670C000039C71F /* QKSettingController.m */,
+				3319D1F01E670C070039C71F /* QKSettingController.storyboard */,
+			);
+			path = Setting;
 			sourceTree = "<group>";
 		};
 		33230A281E6696A5005BCD72 /* Resources */ = {
@@ -177,11 +201,14 @@
 		33230A3C1E669A6E005BCD72 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				3319D1EC1E670BDB0039C71F /* Setting */,
 				33230A3F1E669A85005BCD72 /* QKMineController.h */,
 				33230A401E669A85005BCD72 /* QKMineController.m */,
 				33230A421E669A8F005BCD72 /* QKMineController.storyboard */,
 				3319D1DC1E66BA700039C71F /* QKMineController+NavigationHidden.h */,
 				3319D1DD1E66BA700039C71F /* QKMineController+NavigationHidden.m */,
+				3319D1E91E67098F0039C71F /* QKMineController+QKSkip.h */,
+				3319D1EA1E67098F0039C71F /* QKMineController+QKSkip.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -294,7 +321,7 @@
 		338BAD511E65AE050026993A /* UIkit */ = {
 			isa = PBXGroup;
 			children = (
-				3319D1D51E66B3540039C71F /* 导航栏渐隐 */,
+				3319D1D51E66B3540039C71F /* header拉伸 */,
 				338BAD7E1E6662290026993A /* UILabel */,
 			);
 			path = UIkit;
@@ -394,7 +421,7 @@
 				TargetAttributes = {
 					338BAD2D1E65A55A0026993A = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 552B69TXM9;
+						DevelopmentTeam = 87K5R4G338;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
@@ -426,6 +453,7 @@
 				338BAD411E65A55A0026993A /* LaunchScreen.storyboard in Resources */,
 				338BAD3E1E65A55A0026993A /* Assets.xcassets in Resources */,
 				338BAD3C1E65A55A0026993A /* Main.storyboard in Resources */,
+				3319D1F11E670C070039C71F /* QKSettingController.storyboard in Resources */,
 				33230A431E669A8F005BCD72 /* QKMineController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,11 +522,14 @@
 				338BAD541E65AE2C0026993A /* UIBarButtonItem+CCBlock.m in Sources */,
 				338BAD6D1E65D3350026993A /* UIColor+CCHex.m in Sources */,
 				338BAD571E65B1410026993A /* UIControl+CCBlock.m in Sources */,
+				3319D1E81E66F23D0039C71F /* UIScrollView+HeaderImageScale.m in Sources */,
 				33230A371E66998B005BCD72 /* QKBaseController.m in Sources */,
 				33230A411E669A85005BCD72 /* QKMineController.m in Sources */,
 				338BAD5E1E65B9990026993A /* NSArray+CCFunction.m in Sources */,
+				3319D1EB1E67098F0039C71F /* QKMineController+QKSkip.m in Sources */,
 				33230A311E669789005BCD72 /* QKTabbarController.m in Sources */,
 				338BAD7D1E6661CB0026993A /* UIWindow+CCScreenshot.m in Sources */,
+				3319D1EF1E670C000039C71F /* QKSettingController.m in Sources */,
 				3319D1E51E66BB550039C71F /* NSObject+MethodSwizzling.m in Sources */,
 				338BAD7A1E665F010026993A /* UIDevice+CCDevice.m in Sources */,
 				338BAD701E65D57E0026993A /* UIColor+CCRandom.m in Sources */,
@@ -625,7 +656,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 552B69TXM9;
+				DEVELOPMENT_TEAM = 87K5R4G338;
 				ENABLE_BITCODE = YES;
 				GCC_PREFIX_HEADER = /Users/sunyang/Desktop/QKios/QKios/PrefixHeader.pch;
 				INFOPLIST_FILE = QKios/Info.plist;
@@ -645,7 +676,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 552B69TXM9;
+				DEVELOPMENT_TEAM = 87K5R4G338;
 				ENABLE_BITCODE = YES;
 				GCC_PREFIX_HEADER = /Users/sunyang/Desktop/QKios/QKios/PrefixHeader.pch;
 				INFOPLIST_FILE = QKios/Info.plist;
