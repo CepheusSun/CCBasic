@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  QKios
+//
+//  Created by sunny on 2017/3/1.
+//  Copyright © 2017年 CepheusSun. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+
+
+#import "CCCategoryMacro.h"
+
+
+
+
+
+//计算等比例大小
+#define RATIO_SIZE(s) [UIDevice deviceScreenWidth]/(320.0/s)
+
+
+#endif /* PrefixHeader_pch */

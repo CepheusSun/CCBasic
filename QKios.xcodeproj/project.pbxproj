@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		104DEFDA018218A23EB0DF04 /* libPods-QKios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42DCF75CF95294A8EF427F2F /* libPods-QKios.a */; };
+		3319D1DE1E66BA700039C71F /* QKMineController+NavigationHidden.m in Sources */ = {isa = PBXBuildFile; fileRef = 3319D1DD1E66BA700039C71F /* QKMineController+NavigationHidden.m */; };
+		3319D1E51E66BB550039C71F /* NSObject+MethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 3319D1E41E66BB550039C71F /* NSObject+MethodSwizzling.m */; };
+		33230A311E669789005BCD72 /* QKTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33230A301E669789005BCD72 /* QKTabbarController.m */; };
+		33230A341E66985D005BCD72 /* MNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33230A331E66985D005BCD72 /* MNavigationController.m */; };
+		33230A371E66998B005BCD72 /* QKBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33230A361E66998B005BCD72 /* QKBaseController.m */; };
+		33230A411E669A85005BCD72 /* QKMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33230A401E669A85005BCD72 /* QKMineController.m */; };
+		33230A431E669A8F005BCD72 /* QKMineController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33230A421E669A8F005BCD72 /* QKMineController.storyboard */; };
 		338BAD331E65A55A0026993A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 338BAD321E65A55A0026993A /* main.m */; };
 		338BAD361E65A55A0026993A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 338BAD351E65A55A0026993A /* AppDelegate.m */; };
 		338BAD391E65A55A0026993A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 338BAD381E65A55A0026993A /* ViewController.m */; };
@@ -21,19 +28,38 @@
 		338BAD611E65CB000026993A /* NSArray+CCSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 338BAD601E65CB000026993A /* NSArray+CCSafe.m */; };
 		338BAD6D1E65D3350026993A /* UIColor+CCHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 338BAD6C1E65D3350026993A /* UIColor+CCHex.m */; };
 		338BAD701E65D57E0026993A /* UIColor+CCRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 338BAD6F1E65D57E0026993A /* UIColor+CCRandom.m */; };
+		338BAD761E665A070026993A /* UIColor+CCGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 338BAD751E665A070026993A /* UIColor+CCGradient.m */; };
+		338BAD7A1E665F010026993A /* UIDevice+CCDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 338BAD791E665F010026993A /* UIDevice+CCDevice.m */; };
+		338BAD7D1E6661CB0026993A /* UIWindow+CCScreenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 338BAD7C1E6661CB0026993A /* UIWindow+CCScreenshot.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3319D1DC1E66BA700039C71F /* QKMineController+NavigationHidden.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QKMineController+NavigationHidden.h"; sourceTree = "<group>"; };
+		3319D1DD1E66BA700039C71F /* QKMineController+NavigationHidden.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QKMineController+NavigationHidden.m"; sourceTree = "<group>"; };
+		3319D1E31E66BB550039C71F /* NSObject+MethodSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MethodSwizzling.h"; sourceTree = "<group>"; };
+		3319D1E41E66BB550039C71F /* NSObject+MethodSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MethodSwizzling.m"; sourceTree = "<group>"; };
+		33230A2F1E669789005BCD72 /* QKTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QKTabbarController.h; sourceTree = "<group>"; };
+		33230A301E669789005BCD72 /* QKTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QKTabbarController.m; sourceTree = "<group>"; };
+		33230A321E66985D005BCD72 /* MNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNavigationController.h; sourceTree = "<group>"; };
+		33230A331E66985D005BCD72 /* MNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNavigationController.m; sourceTree = "<group>"; };
+		33230A351E66998B005BCD72 /* QKBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QKBaseController.h; sourceTree = "<group>"; };
+		33230A361E66998B005BCD72 /* QKBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QKBaseController.m; sourceTree = "<group>"; };
+		33230A3F1E669A85005BCD72 /* QKMineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QKMineController.h; sourceTree = "<group>"; };
+		33230A401E669A85005BCD72 /* QKMineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QKMineController.m; sourceTree = "<group>"; };
+		33230A421E669A8F005BCD72 /* QKMineController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = QKMineController.storyboard; sourceTree = "<group>"; };
+		33230A441E669C8B005BCD72 /* CCCategoryMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCategoryMacro.h; sourceTree = "<group>"; };
+		33230A451E669D60005BCD72 /* CCColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCColor.h; sourceTree = "<group>"; };
+		33230A461E669DC4005BCD72 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		338BAD2E1E65A55A0026993A /* QKios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QKios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		338BAD321E65A55A0026993A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		338BAD341E65A55A0026993A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
 		338BAD351E65A55A0026993A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
-		338BAD371E65A55A0026993A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		338BAD381E65A55A0026993A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		338BAD371E65A55A0026993A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		338BAD381E65A55A0026993A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
 		338BAD3B1E65A55A0026993A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		338BAD3D1E65A55A0026993A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		338BAD3D1E65A55A0026993A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		338BAD401E65A55A0026993A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		338BAD421E65A55A0026993A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		338BAD421E65A55A0026993A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		338BAD521E65AE2C0026993A /* UIBarButtonItem+CCBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+CCBlock.h"; sourceTree = "<group>"; };
 		338BAD531E65AE2C0026993A /* UIBarButtonItem+CCBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+CCBlock.m"; sourceTree = "<group>"; };
 		338BAD551E65B1410026993A /* UIControl+CCBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+CCBlock.h"; sourceTree = "<group>"; };
@@ -48,6 +74,12 @@
 		338BAD6C1E65D3350026993A /* UIColor+CCHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CCHex.m"; sourceTree = "<group>"; };
 		338BAD6E1E65D57E0026993A /* UIColor+CCRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CCRandom.h"; sourceTree = "<group>"; };
 		338BAD6F1E65D57E0026993A /* UIColor+CCRandom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CCRandom.m"; sourceTree = "<group>"; };
+		338BAD741E665A070026993A /* UIColor+CCGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CCGradient.h"; sourceTree = "<group>"; };
+		338BAD751E665A070026993A /* UIColor+CCGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CCGradient.m"; sourceTree = "<group>"; };
+		338BAD781E665F010026993A /* UIDevice+CCDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+CCDevice.h"; sourceTree = "<group>"; };
+		338BAD791E665F010026993A /* UIDevice+CCDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+CCDevice.m"; sourceTree = "<group>"; };
+		338BAD7B1E6661CB0026993A /* UIWindow+CCScreenshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+CCScreenshot.h"; sourceTree = "<group>"; };
+		338BAD7C1E6661CB0026993A /* UIWindow+CCScreenshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+CCScreenshot.m"; sourceTree = "<group>"; };
 		42DCF75CF95294A8EF427F2F /* libPods-QKios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QKios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F5ECD220E60FB36904B6467 /* Pods-QKios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QKios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QKios/Pods-QKios.debug.xcconfig"; sourceTree = "<group>"; };
 		A43FDF1A4711BE2F61931977 /* Pods-QKios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QKios.release.xcconfig"; path = "Pods/Target Support Files/Pods-QKios/Pods-QKios.release.xcconfig"; sourceTree = "<group>"; };
@@ -65,6 +97,109 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3319D1D51E66B3540039C71F /* 导航栏渐隐 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "导航栏渐隐";
+			sourceTree = "<group>";
+		};
+		3319D1E21E66BB550039C71F /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				3319D1E31E66BB550039C71F /* NSObject+MethodSwizzling.h */,
+				3319D1E41E66BB550039C71F /* NSObject+MethodSwizzling.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		33230A281E6696A5005BCD72 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				338BAD371E65A55A0026993A /* ViewController.h */,
+				338BAD381E65A55A0026993A /* ViewController.m */,
+				338BAD3A1E65A55A0026993A /* Main.storyboard */,
+				338BAD3D1E65A55A0026993A /* Assets.xcassets */,
+				338BAD3F1E65A55A0026993A /* LaunchScreen.storyboard */,
+				338BAD421E65A55A0026993A /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		33230A291E6696D7005BCD72 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				33230A2A1E669706005BCD72 /* Sections */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		33230A2A1E669706005BCD72 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				33230A3A1E669A50005BCD72 /* Mine(我的) */,
+				33230A2B1E669718005BCD72 /* Main */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		33230A2B1E669718005BCD72 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				33230A2F1E669789005BCD72 /* QKTabbarController.h */,
+				33230A301E669789005BCD72 /* QKTabbarController.m */,
+				33230A321E66985D005BCD72 /* MNavigationController.h */,
+				33230A331E66985D005BCD72 /* MNavigationController.m */,
+				33230A351E66998B005BCD72 /* QKBaseController.h */,
+				33230A361E66998B005BCD72 /* QKBaseController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		33230A3A1E669A50005BCD72 /* Mine(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				33230A3B1E669A6E005BCD72 /* ViewModel */,
+				33230A3C1E669A6E005BCD72 /* Controller */,
+				33230A3D1E669A6E005BCD72 /* View */,
+				33230A3E1E669A6E005BCD72 /* Model */,
+			);
+			path = "Mine(我的)";
+			sourceTree = "<group>";
+		};
+		33230A3B1E669A6E005BCD72 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		33230A3C1E669A6E005BCD72 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				33230A3F1E669A85005BCD72 /* QKMineController.h */,
+				33230A401E669A85005BCD72 /* QKMineController.m */,
+				33230A421E669A8F005BCD72 /* QKMineController.storyboard */,
+				3319D1DC1E66BA700039C71F /* QKMineController+NavigationHidden.h */,
+				3319D1DD1E66BA700039C71F /* QKMineController+NavigationHidden.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		33230A3D1E669A6E005BCD72 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		33230A3E1E669A6E005BCD72 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		338BAD251E65A55A0026993A = {
 			isa = PBXGroup;
 			children = (
@@ -86,15 +221,11 @@
 		338BAD301E65A55A0026993A /* QKios */ = {
 			isa = PBXGroup;
 			children = (
+				33230A291E6696D7005BCD72 /* Classes */,
 				338BAD4D1E65ADD90026993A /* CCKit */,
 				338BAD4C1E65AC9E0026993A /* Appdelegate */,
-				338BAD371E65A55A0026993A /* ViewController.h */,
-				338BAD381E65A55A0026993A /* ViewController.m */,
-				338BAD3A1E65A55A0026993A /* Main.storyboard */,
-				338BAD3D1E65A55A0026993A /* Assets.xcassets */,
-				338BAD3F1E65A55A0026993A /* LaunchScreen.storyboard */,
-				338BAD421E65A55A0026993A /* Info.plist */,
 				338BAD311E65A55A0026993A /* Supporting Files */,
+				33230A281E6696A5005BCD72 /* Resources */,
 			);
 			path = QKios;
 			sourceTree = "<group>";
@@ -103,6 +234,7 @@
 			isa = PBXGroup;
 			children = (
 				338BAD321E65A55A0026993A /* main.m */,
+				33230A461E669DC4005BCD72 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -127,6 +259,7 @@
 		338BAD4E1E65AE050026993A /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				33230A441E669C8B005BCD72 /* CCCategoryMacro.h */,
 				338BAD4F1E65AE050026993A /* Block */,
 				338BAD501E65AE050026993A /* Foundation */,
 				338BAD511E65AE050026993A /* UIkit */,
@@ -150,6 +283,8 @@
 		338BAD501E65AE050026993A /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				3319D1E21E66BB550039C71F /* NSObject */,
+				338BAD771E665EEA0026993A /* UIDevice */,
 				338BAD6A1E65D2910026993A /* UIColor */,
 				338BAD5B1E65B96A0026993A /* NSArray */,
 			);
@@ -159,6 +294,8 @@
 		338BAD511E65AE050026993A /* UIkit */ = {
 			isa = PBXGroup;
 			children = (
+				3319D1D51E66B3540039C71F /* 导航栏渐隐 */,
+				338BAD7E1E6662290026993A /* UILabel */,
 			);
 			path = UIkit;
 			sourceTree = "<group>";
@@ -181,8 +318,29 @@
 				338BAD6C1E65D3350026993A /* UIColor+CCHex.m */,
 				338BAD6E1E65D57E0026993A /* UIColor+CCRandom.h */,
 				338BAD6F1E65D57E0026993A /* UIColor+CCRandom.m */,
+				338BAD741E665A070026993A /* UIColor+CCGradient.h */,
+				338BAD751E665A070026993A /* UIColor+CCGradient.m */,
+				33230A451E669D60005BCD72 /* CCColor.h */,
 			);
 			path = UIColor;
+			sourceTree = "<group>";
+		};
+		338BAD771E665EEA0026993A /* UIDevice */ = {
+			isa = PBXGroup;
+			children = (
+				338BAD781E665F010026993A /* UIDevice+CCDevice.h */,
+				338BAD791E665F010026993A /* UIDevice+CCDevice.m */,
+				338BAD7B1E6661CB0026993A /* UIWindow+CCScreenshot.h */,
+				338BAD7C1E6661CB0026993A /* UIWindow+CCScreenshot.m */,
+			);
+			path = UIDevice;
+			sourceTree = "<group>";
+		};
+		338BAD7E1E6662290026993A /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UILabel;
 			sourceTree = "<group>";
 		};
 		83B91BA8D67A225F85D7B861 /* Frameworks */ = {
@@ -237,6 +395,7 @@
 					338BAD2D1E65A55A0026993A = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 552B69TXM9;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -267,6 +426,7 @@
 				338BAD411E65A55A0026993A /* LaunchScreen.storyboard in Resources */,
 				338BAD3E1E65A55A0026993A /* Assets.xcassets in Resources */,
 				338BAD3C1E65A55A0026993A /* Main.storyboard in Resources */,
+				33230A431E669A8F005BCD72 /* QKMineController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,14 +487,23 @@
 			files = (
 				338BAD391E65A55A0026993A /* ViewController.m in Sources */,
 				338BAD5A1E65B5CD0026993A /* UIImage+CCBlock.m in Sources */,
+				3319D1DE1E66BA700039C71F /* QKMineController+NavigationHidden.m in Sources */,
 				338BAD361E65A55A0026993A /* AppDelegate.m in Sources */,
+				338BAD761E665A070026993A /* UIColor+CCGradient.m in Sources */,
 				338BAD611E65CB000026993A /* NSArray+CCSafe.m in Sources */,
 				338BAD541E65AE2C0026993A /* UIBarButtonItem+CCBlock.m in Sources */,
 				338BAD6D1E65D3350026993A /* UIColor+CCHex.m in Sources */,
 				338BAD571E65B1410026993A /* UIControl+CCBlock.m in Sources */,
+				33230A371E66998B005BCD72 /* QKBaseController.m in Sources */,
+				33230A411E669A85005BCD72 /* QKMineController.m in Sources */,
 				338BAD5E1E65B9990026993A /* NSArray+CCFunction.m in Sources */,
+				33230A311E669789005BCD72 /* QKTabbarController.m in Sources */,
+				338BAD7D1E6661CB0026993A /* UIWindow+CCScreenshot.m in Sources */,
+				3319D1E51E66BB550039C71F /* NSObject+MethodSwizzling.m in Sources */,
+				338BAD7A1E665F010026993A /* UIDevice+CCDevice.m in Sources */,
 				338BAD701E65D57E0026993A /* UIColor+CCRandom.m in Sources */,
 				338BAD331E65A55A0026993A /* main.m in Sources */,
+				33230A341E66985D005BCD72 /* MNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +516,7 @@
 				338BAD3B1E65A55A0026993A /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		338BAD3F1E65A55A0026993A /* LaunchScreen.storyboard */ = {
@@ -355,6 +525,7 @@
 				338BAD401E65A55A0026993A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -453,11 +624,18 @@
 			baseConfigurationReference = 5F5ECD220E60FB36904B6467 /* Pods-QKios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 552B69TXM9;
+				ENABLE_BITCODE = YES;
+				GCC_PREFIX_HEADER = /Users/sunyang/Desktop/QKios/QKios/PrefixHeader.pch;
 				INFOPLIST_FILE = QKios/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = app.QKios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QKios/QKios-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -466,11 +644,17 @@
 			baseConfigurationReference = A43FDF1A4711BE2F61931977 /* Pods-QKios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 552B69TXM9;
+				ENABLE_BITCODE = YES;
+				GCC_PREFIX_HEADER = /Users/sunyang/Desktop/QKios/QKios/PrefixHeader.pch;
 				INFOPLIST_FILE = QKios/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = app.QKios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QKios/QKios-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
