@@ -16,6 +16,7 @@
 
 #import <FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.h>
 
+#import <YYModel.h>
 
 
 //计算等比例大小

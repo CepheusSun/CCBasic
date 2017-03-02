@@ -10,6 +10,7 @@
 
 @interface QKSettingController ()
 
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *cacheCountLabel;
 @end
 
 @implementation QKSettingController

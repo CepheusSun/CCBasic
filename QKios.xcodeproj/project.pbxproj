@@ -35,6 +35,12 @@
 		338BAD761E665A070026993A /* UIColor+CCGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 338BAD751E665A070026993A /* UIColor+CCGradient.m */; };
 		338BAD7A1E665F010026993A /* UIDevice+CCDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 338BAD791E665F010026993A /* UIDevice+CCDevice.m */; };
 		338BAD7D1E6661CB0026993A /* UIWindow+CCScreenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 338BAD7C1E6661CB0026993A /* UIWindow+CCScreenshot.m */; };
+		339514A31E67AE21002B6317 /* QKUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 339514A21E67AE21002B6317 /* QKUserInfo.m */; };
+		339514AA1E67B431002B6317 /* QKRequestParametersBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 339514A91E67B431002B6317 /* QKRequestParametersBuilder.m */; };
+		339514AD1E67B462002B6317 /* QKBaseApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 339514AC1E67B462002B6317 /* QKBaseApi.m */; };
+		339514B01E67B479002B6317 /* QKService.m in Sources */ = {isa = PBXBuildFile; fileRef = 339514AF1E67B479002B6317 /* QKService.m */; };
+		339514B51E67BA3A002B6317 /* TourLoginApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 339514B41E67BA3A002B6317 /* TourLoginApi.m */; };
+		339514BB1E67BB14002B6317 /* UserCenterViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 339514BA1E67BB14002B6317 /* UserCenterViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -91,6 +97,20 @@
 		338BAD791E665F010026993A /* UIDevice+CCDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+CCDevice.m"; sourceTree = "<group>"; };
 		338BAD7B1E6661CB0026993A /* UIWindow+CCScreenshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+CCScreenshot.h"; sourceTree = "<group>"; };
 		338BAD7C1E6661CB0026993A /* UIWindow+CCScreenshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+CCScreenshot.m"; sourceTree = "<group>"; };
+		339514A01E67ACFF002B6317 /* CCMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCMacros.h; path = ../CCMacros.h; sourceTree = "<group>"; };
+		339514A11E67AE21002B6317 /* QKUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QKUserInfo.h; path = "../../Sections/Mine(我的)/Model/QKUserInfo.h"; sourceTree = "<group>"; };
+		339514A21E67AE21002B6317 /* QKUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QKUserInfo.m; path = "../../Sections/Mine(我的)/Model/QKUserInfo.m"; sourceTree = "<group>"; };
+		339514A81E67B431002B6317 /* QKRequestParametersBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QKRequestParametersBuilder.h; sourceTree = "<group>"; };
+		339514A91E67B431002B6317 /* QKRequestParametersBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QKRequestParametersBuilder.m; sourceTree = "<group>"; };
+		339514AB1E67B462002B6317 /* QKBaseApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QKBaseApi.h; sourceTree = "<group>"; };
+		339514AC1E67B462002B6317 /* QKBaseApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QKBaseApi.m; sourceTree = "<group>"; };
+		339514AE1E67B479002B6317 /* QKService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QKService.h; sourceTree = "<group>"; };
+		339514AF1E67B479002B6317 /* QKService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QKService.m; sourceTree = "<group>"; };
+		339514B11E67B4A5002B6317 /* QKApiList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QKApiList.h; sourceTree = "<group>"; };
+		339514B31E67BA3A002B6317 /* TourLoginApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TourLoginApi.h; sourceTree = "<group>"; };
+		339514B41E67BA3A002B6317 /* TourLoginApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TourLoginApi.m; sourceTree = "<group>"; };
+		339514B91E67BB14002B6317 /* UserCenterViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserCenterViewModel.h; sourceTree = "<group>"; };
+		339514BA1E67BB14002B6317 /* UserCenterViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserCenterViewModel.m; sourceTree = "<group>"; };
 		42DCF75CF95294A8EF427F2F /* libPods-QKios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QKios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F5ECD220E60FB36904B6467 /* Pods-QKios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QKios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QKios/Pods-QKios.debug.xcconfig"; sourceTree = "<group>"; };
 		A43FDF1A4711BE2F61931977 /* Pods-QKios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QKios.release.xcconfig"; path = "Pods/Target Support Files/Pods-QKios/Pods-QKios.release.xcconfig"; sourceTree = "<group>"; };
@@ -153,6 +173,8 @@
 		33230A291E6696D7005BCD72 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				3395149B1E67AC8E002B6317 /* LiveModule(直播模块) */,
+				3395149A1E67AC6D002B6317 /* UserCenter(用户中心) */,
 				33230A2A1E669706005BCD72 /* Sections */,
 			);
 			path = Classes;
@@ -248,6 +270,7 @@
 		338BAD301E65A55A0026993A /* QKios */ = {
 			isa = PBXGroup;
 			children = (
+				339514A51E67B3E8002B6317 /* Store */,
 				33230A291E6696D7005BCD72 /* Classes */,
 				338BAD4D1E65ADD90026993A /* CCKit */,
 				338BAD4C1E65AC9E0026993A /* Appdelegate */,
@@ -286,6 +309,7 @@
 		338BAD4E1E65AE050026993A /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				339514A01E67ACFF002B6317 /* CCMacros.h */,
 				33230A441E669C8B005BCD72 /* CCCategoryMacro.h */,
 				338BAD4F1E65AE050026993A /* Block */,
 				338BAD501E65AE050026993A /* Foundation */,
@@ -368,6 +392,96 @@
 			children = (
 			);
 			path = UILabel;
+			sourceTree = "<group>";
+		};
+		3395149A1E67AC6D002B6317 /* UserCenter(用户中心) */ = {
+			isa = PBXGroup;
+			children = (
+				339514B21E67BA22002B6317 /* APIs */,
+				3395149C1E67ACC2002B6317 /* ViewModel */,
+				3395149D1E67ACC2002B6317 /* Model */,
+				3395149E1E67ACC2002B6317 /* View */,
+				3395149F1E67ACC2002B6317 /* Controller */,
+			);
+			path = "UserCenter(用户中心)";
+			sourceTree = "<group>";
+		};
+		3395149B1E67AC8E002B6317 /* LiveModule(直播模块) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "LiveModule(直播模块)";
+			sourceTree = "<group>";
+		};
+		3395149C1E67ACC2002B6317 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				339514B91E67BB14002B6317 /* UserCenterViewModel.h */,
+				339514BA1E67BB14002B6317 /* UserCenterViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3395149D1E67ACC2002B6317 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				339514A11E67AE21002B6317 /* QKUserInfo.h */,
+				339514A21E67AE21002B6317 /* QKUserInfo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3395149E1E67ACC2002B6317 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3395149F1E67ACC2002B6317 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		339514A51E67B3E8002B6317 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				339514A71E67B3F4002B6317 /* Service */,
+				339514A61E67B3E8002B6317 /* Storage */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		339514A61E67B3E8002B6317 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		339514A71E67B3F4002B6317 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				339514B11E67B4A5002B6317 /* QKApiList.h */,
+				339514A81E67B431002B6317 /* QKRequestParametersBuilder.h */,
+				339514A91E67B431002B6317 /* QKRequestParametersBuilder.m */,
+				339514AB1E67B462002B6317 /* QKBaseApi.h */,
+				339514AC1E67B462002B6317 /* QKBaseApi.m */,
+				339514AE1E67B479002B6317 /* QKService.h */,
+				339514AF1E67B479002B6317 /* QKService.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		339514B21E67BA22002B6317 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				339514B31E67BA3A002B6317 /* TourLoginApi.h */,
+				339514B41E67BA3A002B6317 /* TourLoginApi.m */,
+			);
+			path = APIs;
 			sourceTree = "<group>";
 		};
 		83B91BA8D67A225F85D7B861 /* Frameworks */ = {
@@ -513,6 +627,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				339514A31E67AE21002B6317 /* QKUserInfo.m in Sources */,
 				338BAD391E65A55A0026993A /* ViewController.m in Sources */,
 				338BAD5A1E65B5CD0026993A /* UIImage+CCBlock.m in Sources */,
 				3319D1DE1E66BA700039C71F /* QKMineController+NavigationHidden.m in Sources */,
@@ -523,18 +638,23 @@
 				338BAD6D1E65D3350026993A /* UIColor+CCHex.m in Sources */,
 				338BAD571E65B1410026993A /* UIControl+CCBlock.m in Sources */,
 				3319D1E81E66F23D0039C71F /* UIScrollView+HeaderImageScale.m in Sources */,
+				339514AD1E67B462002B6317 /* QKBaseApi.m in Sources */,
+				339514BB1E67BB14002B6317 /* UserCenterViewModel.m in Sources */,
 				33230A371E66998B005BCD72 /* QKBaseController.m in Sources */,
+				339514B01E67B479002B6317 /* QKService.m in Sources */,
 				33230A411E669A85005BCD72 /* QKMineController.m in Sources */,
 				338BAD5E1E65B9990026993A /* NSArray+CCFunction.m in Sources */,
 				3319D1EB1E67098F0039C71F /* QKMineController+QKSkip.m in Sources */,
 				33230A311E669789005BCD72 /* QKTabbarController.m in Sources */,
 				338BAD7D1E6661CB0026993A /* UIWindow+CCScreenshot.m in Sources */,
 				3319D1EF1E670C000039C71F /* QKSettingController.m in Sources */,
+				339514B51E67BA3A002B6317 /* TourLoginApi.m in Sources */,
 				3319D1E51E66BB550039C71F /* NSObject+MethodSwizzling.m in Sources */,
 				338BAD7A1E665F010026993A /* UIDevice+CCDevice.m in Sources */,
 				338BAD701E65D57E0026993A /* UIColor+CCRandom.m in Sources */,
 				338BAD331E65A55A0026993A /* main.m in Sources */,
 				33230A341E66985D005BCD72 /* MNavigationController.m in Sources */,
+				339514AA1E67B431002B6317 /* QKRequestParametersBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -667,6 +787,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "QKios/QKios-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
@@ -686,6 +807,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "QKios/QKios-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
 		};

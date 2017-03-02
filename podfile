@@ -10,10 +10,10 @@ target 'QKios' do
 
 pod 'SYNetwork'
 pod 'EmptyDataKit'
-pod 'YYKit'
+
 pod 'ReactiveCocoa', '~> 2.5'
 pod 'IQKeyboardManager'
 pod 'MJRefresh'
 pod 'FDFullscreenPopGesture'
-
+pod 'YYModel'
 end

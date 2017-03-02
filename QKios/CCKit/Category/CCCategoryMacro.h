@@ -16,4 +16,5 @@
 
 #import "NSObject+MethodSwizzling.h"
 
+#import "CCMacros.h"
 #endif /* CCCategoryMacro_h */
